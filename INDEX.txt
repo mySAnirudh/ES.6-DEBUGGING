@@ -1,0 +1,43 @@
+
+
+
+         **** Debugging ****
+
+  Every now and then, developers commit mistakes while coding. A mistake in a program 
+or a script is referred to as a bug. 
+The process of finding and fixing bugs is called debugging and is a normal part of the 
+development process. This chapter covers the tools and techniques that can help you with 
+debugging tasks. 
+Error Messagesin IE 
+The most basic way to track down errors is by turning on the error information in your 
+browser. By default, the Internet Explorer shows an error icon in the status bar when an 
+error occurs on the page. 
+Double-clicking this icon takes you to a dialog box showing information about the specific 
+error that has occurred. 
+Since this icon is easy to overlook, Internet Explorer gives you the option to automatically 
+show the Error dialog box whenever an error occurs. 
+To enable this option, select Tools --> Internet Options --> Advanced tab and then 
+finally check the “Display a NotificationaboutEvery Script Error” box option as shown 
+in the following screenshot.
+
+
+  Use a JavaScript Debugger
+A debugger is an application that places all aspects of script execution under the control 
+of the programmer. Debuggers provide fine-grained control over the state of the script 
+through an interface that allows you to examine and set values as well as control the flow 
+of execution. 
+Once a script has been loaded into a debugger, it can be run one line at a time or instructed 
+to halt at certain breakpoints. Once the execution is halted, the programmer can examine 
+the state of the script and its variables in order to determine if something is amiss. You 
+can also watch variables for changes in their values. 
+The latest version of the Mozilla JavaScript Debugger (code-named Venkman) for both 
+Mozilla and Netscape browsers can be downloaded from: 
+http://www.hacksrus.com/~ginda/venkman.
+Useful Tipsfor Developers 
+You can keep the following tips in mind to reduce the number of errors in your scripts and 
+simplify the debugging process: 
+• Use plenty of comments. Comments enable you to explain why you wrote the script 
+the way you did and to explain particularly the difficult sections of the code. 
+• Always use indentation to make your code easy to read. Indenting statements also 
+makes it easier for you to match up the beginning and ending tags, curly braces, 
+and other HTML and script elements. 
